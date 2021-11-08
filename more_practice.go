@@ -73,19 +73,19 @@ func main() {
 
 	delete(map_cooler, "Answer")
 
-	map_thirstyBitch := make(map[string]int)
+	map_testMap := make(map[string]int)
 
-	map_thirstyBitch["One"] = 1
-	map_thirstyBitch["Two"] = 2
+	map_testMap["One"] = 1
+	map_testMap["Two"] = 2
 
-	fmt.Println(map_thirstyBitch)
+	fmt.Println(map_testMap)
 
-	for key, value := range map_thirstyBitch {
+	for key, value := range map_testMap {
 		fmt.Println("Key: ", key, "Value: ", value)
 	}
 
-	map_thirstyBitch["Two"] += 10
-	fmt.Println(map_thirstyBitch)
+	map_testMap["Two"] += 10
+	fmt.Println(map_testMap)
 }
 
 package main
